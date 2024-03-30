@@ -10,6 +10,6 @@ sudo -E dpkg -i ${DEB_FILE}
 sudo apt-get update
 sudo -E apt-get -y install mysql-community-server
 
-wget https://raw.githubusercontent.com/dluppoli/CalculusMasterV3/main/CreateDatabase.sql
+wget https://raw.githubusercontent.com/dluppoli/CalculusMasterV4/main/CreateDatabase.sql
 
 sudo mysql --user=root --password=root < CreateDatabase.sql 
